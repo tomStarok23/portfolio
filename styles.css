@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sect {
+    height: 80vh;
+    font-family: Montserrat;
+
+}
+
+.name {
+    font-weight: bolder;
+}
+
+.hero,
+.hire,
+.call-2-action {
+    background-color: #2D2727;
+    color: #F0EB8D;
+    align-items: center;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 17vw;
+}
+
+.name {
+    font-size: 130px;
+}
+
+.info {
+    align-items: center;
+    text-align: center;
+    padding-top: 18vw;
+    width: 40vw;
+    display: block;
+    margin: auto;
+
+}
+
+.about-me,
+.why,
+.contact {
+    color: #2D2727;
+    font-size: 3rem;
+}
+
+.hire,
+.call-2-action {
+    font-size: 3rem;
+}
+
+.about-me-emphasis {
+    font-style: italic;
+    color: #8F43EE;
+    font-weight: 900;
+}
+
+.info-why {
+    padding-top: 10vw;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+    color: #2D2727;
+
+}
+
+.contact-details a {
+    text-decoration: none !important;
+    color: #2D2727;
+}
